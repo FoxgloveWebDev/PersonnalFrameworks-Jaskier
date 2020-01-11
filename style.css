@@ -25,13 +25,6 @@ body {
 }
 
 
-.boite {
-    background-color: #546871;
-    border: 1px solid #e6b276;
-    color: #e6b276;
-    padding: 1rem;
-}
-
 h1 {
     color: #e6b276;
     padding: 1rem;
@@ -40,8 +33,86 @@ h1 {
     font-family: 'vestanight';
     font-size: 6em;
     font-weight: lighter;
-    
 }
+
+.intro {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+
+.presentation {
+    padding: 1rem;
+}
+
+
+.presentation-text {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.image img {
+    width: 350px;
+}
+
+
+.description {
+    padding: 1rem;
+}
+
+.description-text {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.description-version {
+    font-size: 1em;
+    font-weight: normal;
+    text-align: right;
+    margin-top: 2rem;
+}
+
+.button {
+    background-color: #e6b276;
+    border: none;
+    border-radius: 5%;
+    padding: 1rem;
+    font-size: 3em;
+    font-family: 'vestanight';
+}
+
+.calltoaction {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+}
+
+
+.boite {
+    background-color: #546871;
+    border: 1px solid #e6b276;
+    color: #e6b276;
+    padding: 1rem;
+}
+
+.links {
+    margin-top: 2rem;
+    color: white;
+}
+
+/*
 
 .description {
     background-color: #84425a;
@@ -56,11 +127,4 @@ h1 {
     margin-bottom: 1rem;
 }
 
-.jaskier-img {
-    text-align: center;
-}
-
-
-
-
-rendez-vous 
+*/
