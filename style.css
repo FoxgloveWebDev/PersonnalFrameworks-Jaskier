@@ -1,0 +1,66 @@
+/* colors
+#546871 bleu
+#84425a rouge
+#e6b276 ocre
+
+*/
+
+
+body {
+    background-color: #84425a;
+}
+
+@font-face {
+    font-family: 'dandelionregular';
+    src: url('fonts/dandelion-webfont.woff2') format('woff2'),
+         url('fonts/dandelion-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'vestanight';
+    src: url('fonts/vesta-night-webfont.woff2') format('woff2'),
+         url('fonts/vesta-night-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.boite {
+    background-color: #546871;
+    border: 1px solid #e6b276;
+    color: #e6b276;
+    padding: 1rem;
+}
+
+h1 {
+    color: #e6b276;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'vestanight';
+    font-size: 6em;
+    font-weight: lighter;
+    
+}
+
+.description {
+    background-color: #84425a;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.encart {
+    background-color: #84425a;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.jaskier-img {
+    text-align: center;
+}
+
+
+
+
+rendez-vous 

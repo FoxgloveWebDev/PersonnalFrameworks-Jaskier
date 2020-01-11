@@ -1,0 +1,326 @@
+/*!
+ * Jaskier Front-End Framework v1.0.0
+ * Copyright 2019-2020 Foxglove Dev Web
+ */
+
+
+:root {
+    --jaskierblue: #546871;
+    --jaskierpurple: #84425a;
+    --jaskierorange: #e6b276;
+    
+    --blue: #0039a4;
+    --skyblue: #c3d8dd;
+    --darkblue: #121f53;
+    --indigo: #373e71;
+    --purple: #7d007d;
+    --violet: #4e014e;
+    --pink: #f8b6d2; 
+    --red: #d70000;
+    --orange: #f89b00;
+    --yellow: #f7f46b;
+    --green: #007d00;
+    --darkgreen: #082f27;
+    --lightteal: #c8f4ed;
+    --teal: #007d7d;
+    --darkteak: #013748;
+    --cyan: #17a2b8;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+
+    --breakpoint-mobile: 0;
+    --breakpoint-tablet: 576px;
+    --breakpoint-sdesktop: 768px;
+    --breakpoint-ldesktop: 992px;
+    --breakpoint-xldesktop: 1200px;
+
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ligne {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 10px;
+}
+
+
+/* VERSION MOBILE */
+.col-1-smart {
+    grid-column: span 1;
+}
+
+.col-2-smart {
+    grid-column: span 2;
+}
+
+.col-3-smart {
+    grid-column: span 3;
+}
+
+.col-4-smart {
+    grid-column: span 4;
+}
+
+.col-5-smart {
+    grid-column: span 5;
+}
+
+.col-6-smart {
+    grid-column: span 6;
+}
+
+.col-7-smart {
+    grid-column: span 7;
+}
+
+.col-8-smart {
+    grid-column: span 8;
+}
+
+.col-9-smart {
+    grid-column: span 9;
+}
+
+.col-10-smart {
+    grid-column: span 10;
+}
+
+.col-11-smart {
+    grid-column: span 11;
+}
+
+.col-12-smart {
+    grid-column: span 12;
+}
+
+
+
+/* VERSION TABLETTE */
+@media screen and (min-width:576px) {
+
+.col-1-tablet {
+    grid-column: span 1;
+}
+
+.col-2-tablet {
+    grid-column: span 2;
+}
+
+.col-3-tablet {
+    grid-column: span 3;
+}
+
+.col-4-tablet {
+    grid-column: span 4;
+}
+
+.col-5-tablet {
+    grid-column: span 5;
+}
+
+.col-6-tablet {
+    grid-column: span 6;
+}
+
+.col-7-tablet {
+    grid-column: span 7;
+}
+
+.col-8-tablet {
+    grid-column: span 8;
+}
+
+.col-9-tablet {
+    grid-column: span 9;
+}
+
+.col-10-tablet {
+    grid-column: span 10;
+}
+
+.col-11-tablet {
+    grid-column: span 11;
+}
+
+.col-12-tablet {
+    grid-column: span 12;
+    }
+}
+
+
+/* VERSION PETIT DESKTOP */
+@media screen and (min-width:768px) {
+
+    .col-1-desktop {
+        grid-column: span 1;
+    }
+    
+    .col-2-desktop {
+        grid-column: span 2;
+    }
+    
+    .col-3-desktop {
+        grid-column: span 3;
+    }
+    
+    .col-4-desktop {
+        grid-column: span 4;
+    }
+    
+    .col-5-desktop {
+        grid-column: span 5;
+    }
+    
+    .col-6-desktop {
+        grid-column: span 6;
+    }
+    
+    .col-7-desktop {
+        grid-column: span 7;
+    }
+    
+    .col-8-desktop {
+        grid-column: span 8;
+    }
+    
+    .col-9-desktop {
+        grid-column: span 9;
+    }
+    
+    .col-10-desktop {
+        grid-column: span 10;
+    }
+    
+    .col-11-desktop {
+        grid-column: span 11;
+    }
+    
+    .col-12-desktop {
+        grid-column: span 12;
+    }
+}
+
+
+/* VERSION LARGE DESKTOP */
+@media screen and (min-width: 992px) {
+
+    .col-1-ldesktop {
+        grid-column: span 1;
+    }
+    
+    .col-2-ldesktop {
+        grid-column: span 2;
+    }
+    
+    .col-3-ldesktop {
+        grid-column: span 3;
+    }
+    
+    .col-4-ldesktop {
+        grid-column: span 4;
+    }
+    
+    .col-5-ldesktop {
+        grid-column: span 5;
+    }
+    
+    .col-6-ldesktop {
+        grid-column: span 6;
+    }
+    
+    .col-7-ldesktop {
+        grid-column: span 7;
+    }
+    
+    .col-8-ldesktop {
+        grid-column: span 8;
+    }
+    
+    .col-9-ldesktop {
+        grid-column: span 9;
+    }
+    
+    .col-10-ldesktop {
+        grid-column: span 10;
+    }
+    
+    .col-11-ldesktop {
+        grid-column: span 11;
+    }
+    
+    .col-12-ldesktop {
+        grid-column: span 12;
+    }
+}
+
+
+/* VERSION EXTRA LARGE DESKTOP */
+@media screen and (min-width: 1200px) {
+
+    .col-1-xldesktop {
+        grid-column: span 1;
+    }
+    
+    .col-2-xldesktop {
+        grid-column: span 2;
+    }
+    
+    .col-3-xldesktop {
+        grid-column: span 3;
+    }
+    
+    .col-4-xldesktop {
+        grid-column: span 4;
+    }
+    
+    .col-5-xldesktop {
+        grid-column: span 5;
+    }
+    
+    .col-6-xldesktop {
+        grid-column: span 6;
+    }
+    
+    .col-7-xldesktop {
+        grid-column: span 7;
+    }
+    
+    .col-8-xldesktop {
+        grid-column: span 8;
+    }
+    
+    .col-9-xldesktop {
+        grid-column: span 9;
+    }
+    
+    .col-10-xldesktop {
+        grid-column: span 10;
+    }
+    
+    .col-11-xldesktop {
+        grid-column: span 11;
+    }
+    
+    .col-12-xldesktop {
+        grid-column: span 12;
+    }
+}
+
+
